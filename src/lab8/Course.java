@@ -16,7 +16,7 @@ public class Course {
         boolean added = students.add(student);
 
         if(!added) {
-            System.out.println("Student " + student.getName() + " already exists");
+            System.out.println("lab10.Student " + student.getName() + " already exists");
         }
     }
 
